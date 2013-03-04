@@ -44,7 +44,7 @@
 
 // Links
 // -------------------------
-@linkColor:             @red;
+@linkColor:             @blue;
 @linkColorHover:        darken(@linkColor, 5%);
 
 
@@ -97,8 +97,8 @@
 @btnPrimaryBackground:              lighten(@linkColor, 5%);
 @btnPrimaryBackgroundHighlight:     @linkColor;
 
-@btnInfoBackground:                 lighten(@blue, 5%);
-@btnInfoBackgroundHighlight:        @blue;
+@btnInfoBackground:                 lighten(@blue, 15%);
+@btnInfoBackgroundHighlight:        lighten(@blue, 10%);
 
 @btnSuccessBackground:              lighten(@green, 5%);
 @btnSuccessBackgroundHighlight:     @green;
@@ -189,7 +189,7 @@
 @navbarHeight:                    60px;
 @navbarBackgroundHighlight:       @bodyBackground;
 @navbarBackground:                @bodyBackground;
-@navbarBorder:                    darken(@navbarBackground, 18%);
+@navbarBorder:                    darken(@navbarBackground, 12%);
 
 @navbarText:                      @textColor;
 @navbarLinkColor:                 @textColor;
@@ -237,11 +237,11 @@
 // Form states and alerts
 // -------------------------
 @warningText:             #c09853;
-@warningBackground:       #fcf8e3;
+@warningBackground:       #fced9f;
 @warningBorder:           darken(spin(@warningBackground, -10), 3%);
 
 @errorText:               #b94a48;
-@errorBackground:         #f2dede;
+@errorBackground:         #f29898;
 @errorBorder:             darken(spin(@errorBackground, -10), 3%);
 
 @successText:             #468847;
