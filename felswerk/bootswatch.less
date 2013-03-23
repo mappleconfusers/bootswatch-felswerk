@@ -34,6 +34,16 @@ div.subnav {
     border-width: 0.6px;
 }
 
+.attach-top {
+    .border-radius(@borderRadiusLarge @borderRadiusLarge 0px 0px);
+    border-bottom-width: 0px;
+}
+
+.attach-bottom {
+    .border-radius(0px 0px @borderRadiusLarge @borderRadiusLarge);
+    border-top-width: 0px;
+}
+
 // BUTTONS
 // -----------------------------------------------------
 
